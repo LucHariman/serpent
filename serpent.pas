@@ -188,7 +188,7 @@ var code, long, vitesse, point, i, X, Y: integer;
   var X, Y: integer;
   begin
     X:= whereX; Y:= whereY;
-    gotoXY(1,23); writeln('<ENTER> Commencer','<BACKSPACE> Pause':20);
+    gotoXY(1,23); writeln('<ENTER> Commencer','<SPACE> Pause':20);
     writeln('<ESCAPE> Sortir'); gotoXY(X,Y);
   end;
 
